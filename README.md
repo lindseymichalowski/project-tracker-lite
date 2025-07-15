@@ -4,7 +4,7 @@ A streamlined project tracking and status reporting tool built for busy technica
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **Project Tracker Lite** is a lightweight app that enables small teams or solo consultants to:
 - Track projects, milestones, and tasks
@@ -16,7 +16,7 @@ Built with **Blazor Server, C#/.NET, SQL Server**, and structured for future clo
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Frontend/UI**: Blazor Server (.NET 8)
 - **Backend**: ASP.NET Core, C#
@@ -26,19 +26,19 @@ Built with **Blazor Server, C#/.NET, SQL Server**, and structured for future clo
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 📋 Create and manage projects, tasks, and notes
-- 🔒 Role-based access (optional for future multi-user version)
-- 📤 Export status reports (static version ready; AI-powered version in progress)
-- 💬 Clean UI with Bootstrap styling
-- 📈 Built with PMs, developers, and tech leads in mind
+- Create and manage projects, tasks, and notes
+- Role-based access (optional for future multi-user version)
+- Export status reports (static version ready; AI-powered version in progress)
+- Clean UI with Bootstrap styling
+- Built with PMs, developers, and tech leads in mind
 
 ---
 
-## 🧠 About the Creator
+## About the Creator
 
-👋 Hi, I’m **Lindsey Michalowski** — a Technical PM with a background in C#, SQL, and custom software engineering. I specialize in bridging the gap between engineering and delivery by building tools that remove friction, create clarity, and drive outcomes.
+Hi, I’m **Lindsey Michalowski** — a Technical PM with a background in C#, SQL, and custom software engineering. I specialize in bridging the gap between engineering and delivery by building tools that remove friction, create clarity, and drive outcomes.
 
 I’m currently expanding my cloud and AI expertise with AWS and OpenAI integration, while continuing to support teams in launching and maintaining impactful software.
 
@@ -46,8 +46,35 @@ I’m currently expanding my cloud and AI expertise with AWS and OpenAI integrat
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/your-github/project-tracker-lite.git
+
+2. Set up the database using /Database/schema.sql
+3. Run the app:
+   ```bash
+   dotnet run
+
+4. Navigate to https://localhost:5001
+
+---
+
+## Roadmap
+ - Add AI-powered summary using OpenAI API
+ - Add multi-user support with role-based permissions
+ - Deploy to AWS (Lightsail or App Runner)
+ - Improve UI responsiveness (mobile support)
+
+---
+
+## Screenshots
+Coming soon – App setup is in progress.
+
+---
+
+## 📜 License
+MIT License
+
+
